@@ -13,9 +13,17 @@
     <servlet-name>LifecycleServlet</servlet-name>
     <url-pattern>/LifecycleServlet</url-pattern>
   </servlet-mapping>
-  
   <welcome-file-list>
-	<welcome-file>index.html</welcome-file>
-  
+    <welcome-file>index.html</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>DisplayOutput</display-name>
+    <servlet-name>DisplayOutput</servlet-name>
+    <servlet-class>com.datmt.servlet.DisplayOutput</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayOutput</servlet-name>
+    <url-pattern>/DisplayOutput</url-pattern>
+  </servlet-mapping>
 </web-app>
